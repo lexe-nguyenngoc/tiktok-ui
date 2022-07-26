@@ -1,0 +1,55 @@
+{
+    "Create Component using style module": {
+        "scope": "javascriptreact",
+        "prefix": "rcsm",
+        "body": [
+            "import React from 'react';",
+            "import classNames from 'classnames/bind';",
+            "",
+            "import styles from './${1:ComponentName}.module.scss';",
+            "",
+            "const cx = classNames.bind(styles);",
+            "",
+            "function ${1:ComponentName}() {",
+            "\treturn <div className={cx('wrapper')}>${1:ComponentName}</div>",
+            "};",
+            "",
+            "export default ${1:ComponentName};"
+        ],
+        "description": "React Component Style Module"
+    },
+    "Create Component using style module with propTypes": {
+        "scope": "javascriptreact",
+        "prefix": "rcsmp",
+        "body": [
+            "import React from 'react';",
+            "import PropTypes from 'prop-types';",
+            "import classNames from 'classnames/bind';",
+            "",
+            "import styles from './${1:ComponentName}.module.scss';",
+            "",
+            "const cx = classNames.bind(styles);",
+            "",
+            "function ${1:ComponentName}(props) {",
+            "\treturn <div className={cx('wrapper')}>${1:ComponentName}</div>",
+            "};",
+            "",
+            "${1:ComponentName}.propTypes = {",
+            "",
+            "};",
+            "",
+            "${1:ComponentName}.defaultProps = {",
+            "",
+            "};",
+            "",
+            "export default ${1:ComponentName};"
+        ],
+        "description": "React Component Style Module PropTypes"
+    },
+    "React Element using style module": {
+        "scope": "javascriptreact",
+        "prefix": "esm",
+        "body": ["<${1:div} classNames={cx('${2:className}')}>", "${3:content}", "</${1:div}>"],
+        "description": "Create Element using style module"
+    }
+}

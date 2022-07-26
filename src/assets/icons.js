@@ -1,0 +1,16 @@
+export { ReactComponent as LogoIcon } from '~/assets/svg/logo.svg';
+export { ReactComponent as PlusIcon } from '~/assets/svg/plus.svg';
+export { ReactComponent as EllipseVerticalIcon } from '~/assets/svg/ellipse-vertical.svg';
+export { ReactComponent as LanguageIcon } from '~/assets/svg/language.svg';
+export { ReactComponent as HelpIcon } from '~/assets/svg/help.svg';
+export { ReactComponent as KeyboardIcon } from '~/assets/svg/keyboard.svg';
+export { ReactComponent as UserIcon } from '~/assets/svg/user.svg';
+export { ReactComponent as CoinIcon } from '~/assets/svg/tiktok.svg';
+export { ReactComponent as AnalyticIcon } from '~/assets/svg/analytic.svg';
+export { ReactComponent as SettingIcon } from '~/assets/svg/setting.svg';
+export { ReactComponent as LogoutIcon } from '~/assets/svg/logout.svg';
+export { ReactComponent as MessageIcon } from '~/assets/svg/message.svg';
+export { ReactComponent as InboxIcon } from '~/assets/svg/inbox.svg';
+export { ReactComponent as SearchIcon } from '~/assets/svg/search.svg';
+export { ReactComponent as ClearFillIcon } from '~/assets/svg/close-fill.svg';
+export { ReactComponent as LoadingCircleIcon } from '~/assets/svg/loading-circle.svg';
